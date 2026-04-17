@@ -3,9 +3,6 @@
 
 #include <string>
 
-// ==================== ABSTRACT CLASS: IUser ====================
-// Base interface for all user roles: Buyer, Seller, Admin
-// Hides role-specific login/display logic behind a uniform interface
 
 class IUser {
 protected:
@@ -20,7 +17,6 @@ public:
     virtual std::string getRole() const = 0;
     virtual void login() const = 0;
 
-    // Concrete getter — shared by all users
     int getID() const;
     std::string getName() const;
 

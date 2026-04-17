@@ -1,9 +1,6 @@
 #ifndef ILISTABLE_H
 #define ILISTABLE_H
 
-// ==================== ABSTRACT CLASS: IListable ====================
-// Any object that can be posted as a marketplace listing must implement this.
-// Provides a uniform activate/deactivate interface.
 
 class IListable {
 public:

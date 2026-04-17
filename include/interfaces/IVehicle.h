@@ -3,9 +3,6 @@
 
 #include <string>
 
-// ==================== ABSTRACT CLASS: IVehicle ====================
-// Pure interface for all vehicle types (Car, Bike)
-// Enforces polymorphic displayDetails() and depreciation behaviour
 
 class IVehicle {
 public:
@@ -18,7 +15,7 @@ public:
     virtual std::string getModel() const = 0;
     virtual int getYear() const = 0;
 
-    // Virtual destructor — good practice for base classes
+    // Virtual destructor 
     virtual ~IVehicle();
 };
 
